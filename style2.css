@@ -1,0 +1,126 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and global styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #b0c1e6;
+    color: #333;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+main {
+    padding: 2rem;
+}
+
+.player-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.player {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+
+.player:hover{
+    border:8px solid blue;
+}
+.player img {
+    width: 100%;
+    height: auto;
+}
+
+.player h2 {
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+}
+
+.player p {
+    font-size: 1rem;
+    color: #555;
+}
+
+footer{
+    text-align:center;
+}
+
+a{
+    display: block;
+    
+    text-align: center;
+    font-weight: bold;
+    background-color:bisque;
+    color:blue;
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: none;
+
+}
+
+a:hover{
+    background-color: orange;
+    color:#fff;
+}
+.mail{
+    top:50%;
+    background-color:bisque;
+    color:blue;
+    border-radius: 10px;
+    padding: 10px;
+    min-height: 10px;
+    min-width: 120px;
+}
+.mail:hover{
+    background-color: rgb(101, 230, 27);
+    transition: 0.7s;
+}
+.mail:active{
+    background-color: rgb(109, 109, 75);
+}
+.instagram{
+    top:50%;
+    background-color:bisque;
+    color:blue;
+    border-radius: 10px;
+    padding: 10px;
+    min-height: 10px;
+    min-width: 120px;
+}
+.instagram:hover{
+    background-color: rgb(101, 230, 27);
+    transition: 0.7s;
+}
+.instagram:active{
+    background-color:rgb(99, 99, 187);
+}
+.a2{
+    width:20%;
+    align-items: center;text-align: center;
+    background: #333;color: #4e4a4a46;
+}
